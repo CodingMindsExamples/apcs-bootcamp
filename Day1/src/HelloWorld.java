@@ -9,12 +9,13 @@ public class HelloWorld {
         System.out.println("Hello World!");
         System.out.println("I like programming in Java."); // String
         System.out.println("This is the 3rd line of code.");
+
         /*
          * The following code shows how to do Math operations in Java.
          * It includes addition, subtraction, multiplication, and division.
          */
         System.out.println(3 + 5);
-        System.out.println("10 - 15");
+        System.out.println(10 - 15);
         System.out.println(3 * 6);
         System.out.println(16 / 4);  
         System.out.println(Math.PI);  // This PI value is provided by Java
