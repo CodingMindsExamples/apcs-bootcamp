@@ -33,10 +33,21 @@ public class StringDemo {
 		
 		System.out.println(welcomeMessage.substring(5, 12));
 		
-		// Assignment 3
-		String mystr = "Java Programming Language";
-		// 1. print out the length of the string
-		// 2. cut the string in half and reserve the two parts
-		// e.g., print out "ming LanguageJava Program"
+		String newStr = "Java programming for AP CS";
+		System.out.println(newStr.lastIndexOf('r'));
+		System.out.println(newStr.indexOf('r', 15));
+		System.out.println(newStr.lastIndexOf("Java"));
+		System.out.println(newStr.lastIndexOf("AP"));
+		System.out.println(newStr.indexOf("ap cs"));
+		
+		System.out.println(newStr.startsWith("Java"));
+		System.out.println(newStr.endsWith("ap cs"));
+		System.out.println(newStr.endsWith("AP CS"));
+		
+		String newStr2 = "   AP CS A final exam    ";
+		System.out.println(newStr2.length());
+		System.out.println(newStr2.trim());   //  AP CS A Final exam 
+		newStr2 = newStr2.trim();
+		System.out.println(newStr2.length());			
 	}
 }
